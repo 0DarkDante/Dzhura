@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Cramaten'; /* по этому имени мы будем обращаться к шрифтц*/
+  src: url('fonts/Cramaten'); /* URL по которому лежит шрифт */
+  font-family: 'Neue Haas Unica'; /* по этому имени мы будем обращаться к шрифтц*/
+  src: url('fonts/NeueHaasUnica');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Cramaten';
+}
+
+header {
+  display: flex;
+  width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.header-menu {
+  width: 816px;
+}
+
+.header-menu>ul>li {
+  color: #FFFFFF;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.header-menu>ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-right: -19px;
+}
+
+header>button {
+  width: 165px;
+  height: 44px;
+  border-radius: 30px;
+  border: 1px solid #FF0000;
+  background: rgba(255, 0, 0, 0);
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: 'Cramaten';
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 120px;
+  color: #ffffff;
+  font-weight: 400;
+}
