@@ -127,13 +127,13 @@ article {
   text-align: center;
 }
 
-.section2 h1 {
+.h1 {
   margin: 0 auto 48px auto;
   font-size: 120px;
   font-weight: 400;
 }
 
-.section2-details p {
+.main-p {
   color: #FFFFFF;
   font-family: 'Neue Haas Unica';
   font-weight: 300;
@@ -178,4 +178,18 @@ article {
 
 .active-menu_section2 {
   border-bottom: 2px solid red;
+}
+
+.main-page-ornament-img {
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 h1 {
+  margin-bottom: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
