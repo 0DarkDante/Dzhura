@@ -23,6 +23,11 @@ header {
   margin-top: 40px;
 }
 
+main {
+  width: 1280px;
+  margin: 0 auto;
+}
+
 .header-menu {
   width: 816px;
 }
@@ -102,7 +107,7 @@ article {
 .section1::before {
   content: "";
   position: absolute;
-  bottom: -467px;
+  bottom: -238px;
   left: 557px;
   width: 66%;
   height: 30%;
@@ -115,4 +120,62 @@ article {
 
 .section1 p {
   margin: 48px 0;
+}
+
+.section2 {
+  margin-top: 424px;
+  text-align: center;
+}
+
+.section2 h1 {
+  margin: 0 auto 48px auto;
+  font-size: 120px;
+  font-weight: 400;
+}
+
+.section2-details p {
+  color: #FFFFFF;
+  font-family: 'Neue Haas Unica';
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  width: 100%;
+  text-align: justify;
+}
+
+.section2 img{
+  width: 100%;
+}
+
+.menu_section2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.menu_section2 h2 {
+  font-weight: 400;
+  font-size: 60px;
+  display: inline-block; 
+  margin: 0 50px;
+  margin-bottom: 100px;
+}
+
+.menu-mini_section2 {
+  display: flex;
+}
+
+.menu-mini_section2 h3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: start;
+}
+
+.section2-details {
+  margin-left: 48px;
+}
+
+.active-menu_section2 {
+  border-bottom: 2px solid red;
 }
