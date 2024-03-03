@@ -6,7 +6,6 @@ let video = document.getElementById("myVideo");
         isPlaying = true;
     }
 
-    // Функція для паузи відео
     function pauseVideo() {
         video.pause();
         isPlaying = false;

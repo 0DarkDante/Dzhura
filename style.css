@@ -133,6 +133,19 @@ article {
   font-weight: 400;
 }
 
+.section2-2 {
+  display: none;
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
+}
+
+.section2-3 {
+  display: none;
+}
+
 .main-p {
   color: #FFFFFF;
   font-family: 'Neue Haas Unica';
@@ -159,6 +172,7 @@ article {
   display: inline-block; 
   margin: 0 50px;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .menu-mini_section2 {
@@ -236,5 +250,3 @@ article {
 .section5 {
   margin-top: 50px;
 }
-
-
