@@ -201,3 +201,36 @@ article {
 .section3-details img {
   margin-left: 80px;
 }
+
+.section4-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.section4 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.our-values h2 {
+  color: #FF0000;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.our-values p {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'Neue Haas Unica';
+  display: block;
+  width: 300px;
+  line-height: 18px;
+}
+
+
