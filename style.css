@@ -193,3 +193,11 @@ article {
   justify-content: center;
   align-items: center;
 }
+
+.section3-details {
+  display: flex;
+}
+
+.section3-details img {
+  margin-left: 80px;
+}
