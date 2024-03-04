@@ -310,3 +310,30 @@ article {
 .section5 {
   margin-top: 50px;
 }
+
+.section-dzura {
+  margin-top: 150px;
+}
+
+.section-dzura2 {
+  color: #ffffff;
+  font-family: 'Neue Haas Unica';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 150px auto 150px auto;
+  width: 80%;
+}
+
+.section-dzura4 {
+  margin-top: 100px;
+}
+
+.section-dzura4 h1 {
+  margin-bottom: 100px;
+}
+
+.main-p-dzura a {
+  color: #FF0000;
+}
