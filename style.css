@@ -337,3 +337,13 @@ article {
 .main-p-dzura a {
   color: #FF0000;
 }
+
+.section-HowToJoin1 {
+  margin: 150px auto 200px auto;
+}
+
+.section-HowToJoin2 img {
+  display: flex;
+  margin: auto;
+
+}
