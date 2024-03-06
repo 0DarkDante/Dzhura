@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Cramaten'; /* по этому имени мы будем обращаться к шрифтц*/
   src: url('fonts/Cramaten'); /* URL по которому лежит шрифт */
+  font-display: swap;
 }
 
 * {
