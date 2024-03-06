@@ -31,6 +31,31 @@ main {
 footer {
   width: 1280px;
   margin: 0 auto;
+  margin-top: 150px;
+  border-top: 2px solid red;
+}
+
+.footer-info {
+  display: flex;
+}
+
+footer nav {
+  margin-top: 48px;
+}
+
+.footer-block1 h2 {
+  margin-bottom: 48px;
+}
+
+.footer-info p {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Neue Haas Unica';
+}
+
+.all-rights {
+  color: #FFFFFF;
 }
 
 footer nav {
@@ -44,11 +69,11 @@ footer ul li a {
   font-weight: 400;
   font-family: 'Neue Haas Unica';
   text-decoration: none;
-  padding-bottom: 32px;
+  padding-bottom: 18px;
 }
 
 footer ul li {
-  padding-bottom: 32px;
+  padding-bottom: 15px;
 }
 
 footer h2 a {
@@ -56,6 +81,42 @@ footer h2 a {
   text-decoration: none;
   font-size: 60px;
   font-weight: 400;
+}
+
+.all-rights {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 100px auto 40px auto;
+  position: relative;
+  text-align: center;
+}
+
+.all-rights::before,
+.all-rights::after {
+  content: "";
+  display: inline-block;
+  width: 20%; /* Розділіть на дві рівні частини (ліва та права половини) */
+  height: 1px; /* Товщина полоски */
+  background-color: red; /* Колір полоски */
+  position: absolute;
+  top: 51%;
+  transform: translateY(-50%);
+}
+
+.all-rights::before {
+  left: 250px; /* Ліва полоска */
+}
+
+.all-rights::after {
+  right: 250px; /* Права полоска */
+}
+
+.all-rights span {
+  font-family: 'Neue Haas Unica';
 }
 
 .header-menu {
