@@ -467,3 +467,43 @@ article {
   margin-right: 40px;
 }
 
+.section-SHVD2-paragraf {
+  color: #ffffff;
+  font-family: 'Neue Haas Unica';
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: justify;
+  width: 680px;
+  margin-top: 48px;
+}
+
+.section-SHVD3-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SHVD3-key-features {
+  margin-bottom: 50px;
+}
+
+.SHVD3-key-features p {
+  width: 450px;
+  padding-top: 18px;
+}
+
+.section-SHVD3 {
+  width: 1100px;
+  margin: 112px auto 0 auto;
+}
+
+.section-SHVD3-main-p {
+  color: #ffffff;
+  font-family: 'Neue Haas Unica';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0px auto 100px auto;
+  width: 839px;
+  text-align: center;
+}
