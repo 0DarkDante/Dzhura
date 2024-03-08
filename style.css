@@ -576,6 +576,15 @@ article {
   font-size: 30px;
   font-weight: 400;
   font-family: 'Cramaten';
+  padding-left: 20px;
+  color: #ffffff;
+  letter-spacing: 3px;
+  outline: none;
+}
+
+.custom-alert-mini input:focus {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 0, 0); /* Колір тексту при фокусі */
 }
 
 .custom-alert-mini button {
