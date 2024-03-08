@@ -23,3 +23,20 @@ let video = document.getElementById("myVideo");
             pauseVideo();
         }
     };
+
+// alert
+
+function showCustomAlert() {
+  document.getElementById('customAlert').style.display = 'block';
+}
+
+function closeCustomAlert() {
+  document.getElementById('customAlert').style.display = 'none';
+}
+
+function sendData() {
+  // Ваш код для обробки введених даних та відправки
+  // може бути додано тут
+  alert('Дані успішно відправлено!');
+  closeCustomAlert();
+}

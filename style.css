@@ -194,7 +194,6 @@ footer h2 a {
   visibility: visible;
 }
 
-
 .btn-head {
   width: 165px;
   height: 44px;
@@ -242,7 +241,7 @@ article {
   line-height: 24px;
 }
 
-.section1 img {
+.section1-img {
   width: 840px;
   height: 1024px;
   position: absolute;
@@ -255,7 +254,7 @@ article {
 .section1::before {
   content: "";
   position: absolute;
-  bottom: -238px;
+  bottom: -245px;
   left: 557px;
   width: 66%;
   height: 30%;
@@ -437,7 +436,6 @@ article {
 .section-HowToJoin2 img {
   display: flex;
   margin: auto;
-
 }
 
 .section-SHVD1 {
@@ -520,4 +518,66 @@ article {
 .section-SHVD5 {
   margin-top: 150px;
   margin-bottom: 100px;
+}
+
+/* alert */
+
+.custom-alert {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 750px;
+  height: 476px;
+  width: 100%;
+  background-color: black;
+  border: #000000;
+  z-index: 5;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  width: 36.3px;
+  height: 36.3px;
+  font-size: 24px;
+  color: #ff0000;
+}
+
+.custom-alert h1 {
+  color: #F0F0F0;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  padding-top: 40px;
+}
+
+.custom-alert-mini {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-alert-mini input {
+  width: 95%;
+  height: 48px;
+  margin-bottom: 33px;
+  border: none;
+  border-bottom: 1px solid #FF0000;
+  background-color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Cramaten';
+}
+
+.custom-alert-mini button {
+  margin-top: 17px;
 }

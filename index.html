@@ -41,7 +41,7 @@
 
   <main>
       <section class="section1">
-        <img src="IMG/Main/dsc00543-scaled 1.png" alt="main_Photo">
+        <img src="IMG/Main/dsc00543-scaled 1.png" alt="main_Photo" class="section1-img">
           <h1>КІБОРГИ</h1>
           <p>Легендарні Кіборги– одні із найсильніших 
             та найвідданіших захисників нашої 
@@ -53,7 +53,19 @@
             поклик душі. Приєднуйтесь до нас 
             та приготуйтеся до неймовірного досвіду 
             на полі бою!</p>
-          <button class="btn-head">Доєднатися</button>
+          <button class="btn-head" onclick="showCustomAlert()">Доєднатися</button>
+
+              <!-- Контент алерту -->
+          <div id="customAlert" class="custom-alert">
+            <img src="IMG/Vector.png" alt="close-btn" class="close-btn" onclick="closeCustomAlert()">
+            <div class="custom-alert-mini">
+              <h1>Доєднатися</h1>
+              <input type="text" placeholder="ІМ’Я">
+              <input type="email" placeholder="EMAIL">
+              <input type="text" placeholder="НОМЕР ТЕЛЕФОНУ">
+              <button onclick="sendData()" class="btn-head">ВІДПРАВИТИ</button>
+            </div>
+          </div>
       </section>
 
       <section class="section2">
