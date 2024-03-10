@@ -590,3 +590,20 @@ article {
 .custom-alert-mini button {
   margin-top: 17px;
 }
+
+.customAlert2 {
+  display: none;
+}
+
+.custom-alert-mini2 {
+  margin-top: 109px;
+}
+
+.custom-alert-mini2 p {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Neue Haas Unica';
+  margin: 15px auto 40px auto;
+  height: auto;
+  width: 594px;
+}

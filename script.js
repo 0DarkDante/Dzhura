@@ -32,11 +32,13 @@ function showCustomAlert() {
 
 function closeCustomAlert() {
   document.getElementById('customAlert').style.display = 'none';
+  document.getElementById('customAlert2').style.display = 'none';
 }
 
 function sendData() {
-  // Ваш код для обробки введених даних та відправки
-  // може бути додано тут
-  alert('Дані успішно відправлено!');
-  closeCustomAlert();
+  document.getElementById('customAlert2').style.display = 'block';
+}
+
+function goToHomePage() {
+    window.location.href = 'index.html';
 }
