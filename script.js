@@ -40,5 +40,35 @@ function sendData() {
 }
 
 function goToHomePage() {
-    window.location.href = 'index.html';
+  window.location.href = 'index.html';
 }
+
+// our us
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Отримати всі елементи меню
+  var menuItems = document.querySelectorAll('.menu_section2 h2');
+
+  // Додати обробник подій для кожного елементу меню
+  menuItems.forEach(function (menuItem, index) {
+    menuItem.addEventListener('click', function () {
+      // Отримати всі секції
+      var sections = document.querySelectorAll('.section-aboutUs-main');
+
+      // Сховати всі секції
+      sections.forEach(function (section) {
+        section.classList.remove('active');
+      });
+
+      // Відобразити потрібну секцію
+      sections[index].classList.add('active');
+
+      // Змінити клас active-menu_section2 для кнопок меню
+      menuItems.forEach(function (item) {
+        item.classList.remove('active-menu_section2');
+      });
+      menuItem.classList.add('active-menu_section2');
+    });
+  });
+});
+

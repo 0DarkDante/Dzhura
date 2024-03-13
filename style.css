@@ -55,6 +55,28 @@ footer nav {
   font-family: 'Neue Haas Unica';
 }
 
+.footer-block2 a:hover {
+  transition: 1.0s;
+  border-bottom: 1px solid red;
+  padding-bottom: 0px;
+}
+
+.section-aboutUs-main {
+  display: none;
+  margin-bottom: 20px;
+}
+
+/* Відобразити активну секцію */
+.section-aboutUs-main.active {
+  display: block;
+}
+
+.menu-section2-index {
+  margin-bottom: -365px;
+  margin-top: 360px;
+}
+
+
 .all-rights {
   color: #FFFFFF;
 }
@@ -209,6 +231,12 @@ footer h2 a {
   align-content: flex-end;
   justify-content: center;
   padding-bottom: 1px;
+  transition: background-color 2s, color 2s; /* Змінено тут */
+}
+
+.btn-head:hover {
+  background-color: #FF0000; /* Змінено тут */
+  color: #000000; /* Змінено тут */
 }
 
 h1 {
@@ -273,6 +301,13 @@ article {
   margin-top: 424px;
   text-align: center;
 }
+
+.section-aboutUs-main {
+  margin-top: 350px;
+}
+
+
+
 
 .h1 {
   margin: 0 auto 48px auto;
@@ -343,6 +378,7 @@ article {
 
 .active-menu_section2 {
   border-bottom: 2px solid red;
+  transition: 1s;
 }
 
 .main-page-ornament-img {
