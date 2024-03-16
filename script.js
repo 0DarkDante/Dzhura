@@ -72,3 +72,26 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.getElementById('backToHome').addEventListener('click', function(event) {
+  event.preventDefault(); // Зупинити стандартну дію переходу за посиланням
+  
+  // Перевірка, чи ми на головній сторінці
+  if (window.location.pathname === 'index.html') {
+    // Перевірка, чи є секція 3 на головній сторінці
+    var section3Element = document.getElementById('history');
+    if (section3Element) {
+      // Прокрутка до секції 3 з плавною анімацією
+      section3Element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  } else {
+    // Перехід на головну сторінку з анкором до секції 3
+    window.location.href = 'index.html#history';
+  }
+});
+
+
+
+
