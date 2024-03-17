@@ -92,6 +92,12 @@ document.getElementById('backToHome').addEventListener('click', function(event) 
   }
 });
 
+let callButton = document.getElementById('callButton');
 
+  // Додаємо обробник події для натискання на кнопку
+   callButton.addEventListener('click', function() {
+  // Відкриваємо діалогове вікно для набору номера
+    window.location.href = 'tel:+1234567890';
+ });
 
 
