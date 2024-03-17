@@ -1,3 +1,9 @@
+fetch('footer.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('footer').innerHTML = data;
+});
+
 let video = document.getElementById("myVideo");
     let isPlaying = false;
 
@@ -97,7 +103,7 @@ let callButton = document.getElementById('callButton');
   // Додаємо обробник події для натискання на кнопку
    callButton.addEventListener('click', function() {
   // Відкриваємо діалогове вікно для набору номера
-    window.location.href = 'tel:+1234567890';
+    window.location.href = 'tel:+380660024808';
  });
 
 
