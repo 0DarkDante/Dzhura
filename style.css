@@ -4,6 +4,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Neue Haas Unica'; /* по этому имени мы будем обращаться к шрифтц*/
+  src: url('fonts/NeueHaasUnica'); /* URL по которому лежит шрифт */
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -863,40 +869,73 @@ article {
   }
 }
 
-.container-kiborg {
-  margin-top: 130px;
+.container-big-kiborgy {
+  margin-top: 100px;
 }
 
-.container-kiborg img {
+
+.container-big-kiborgy {
+  display: flex;
+}
+
+.container-left-kiborgy img {
   width: 450px;
   height: 570px;
+  margin-right: 60px;
 }
 
-.kiborg-details h1 {
-  font-size: 60px;
-}
-
-.container-kiborg {
-  display: flex;
-  align-items: flex-start; /* Вирівнювання зображення зверху */
-  justify-content: space-between; /* Зображення буде знаходитися справа від тексту */
-}
-
-.kiborg-details p {
+.container-left-kiborgy-details,
+.container-right-kiborgy {
   color: #c40000;
-  font-size: 23px;
 }
 
-.container-kiborg img {
-  margin-right: 60px; /* Відступ між зображенням і текстом */
-}
-
-.kiborg-details {
-  flex-grow: 1; /* Текст займе весь доступний простір на залишку контейнера */
-  width: 200px;
-}
-
-.container-enother-information-kiborg-mini {
-  color: #ffffff;
+.container-left-kiborgy-details {
   display: flex;
+  margin-bottom: 4px;
+}
+
+.container-left-kiborgy-details p {
+  font-size: 30px ;
+}
+
+.container-left-kiborgy-details span {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Nunito";
+  color: #ffffff;
+}
+
+.container-right-kiborgy p {
+  font-size: 19px;
+  color: #ffff;
+  font-family: 'Nunito';
+  text-align: justify;
+}
+
+.container-right-kiborgy h1 {
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+.corps p {
+  color: #c40000;
+  font-size: 30px;
+}
+
+.corps-group {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.corps-group img {
+  height: 25px;
+  width: 25px;
+  margin-right: 12px;
+  margin-left: 71px;
+}
+
+.corps-group span {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Nunito";
 }
