@@ -882,6 +882,7 @@ article {
   width: 450px;
   height: 570px;
   margin-right: 60px;
+  
 }
 
 .container-left-kiborgy-details,
@@ -938,4 +939,12 @@ article {
   color: #ffffff;
   font-size: 20px;
   font-family: "Nunito";
+}
+
+.container-contacts {
+  height: 1000px;
+  width: 1280px;
+  background-image: url('IMG/alexander-jawfox-Mu0ExSKTOBs-unsplash.jpg'); /* Зображення, яке буде використовуватися в якості фону */
+  background-size: cover; /* Збільшує зображення так, щоб воно повністю покривало блок */
+  background-position: center;
 }
