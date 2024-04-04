@@ -944,7 +944,60 @@ article {
 .container-contacts {
   height: 1000px;
   width: 1280px;
-  background-image: url('IMG/alexander-jawfox-Mu0ExSKTOBs-unsplash.jpg'); /* Зображення, яке буде використовуватися в якості фону */
-  background-size: cover; /* Збільшує зображення так, щоб воно повністю покривало блок */
+  background-image: url('IMG/alexander-jawfox-Mu0ExSKTOBs-unsplash.jpg'); 
+  background-size: cover; 
   background-position: center;
+  position: relative;
+}
+
+.info-contacts {
+  position: absolute; /* Додайте це */
+  bottom: 165px; /* Вирівняйте блок внизу відносно батьківського контейнера */
+  left: 0; /* Вирівняйте блок зліва відносно батьківського контейнера */
+  padding: 20px; /* Додайте відступи, які потрібно */
+
+}
+
+.info-contacts h1 {
+  font-size: 100px;
+} 
+
+.info-contacts h2 {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Nunito";
+  margin-top: 55px;
+}
+
+.left-bar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 110px;
+}
+
+.left-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Nunito";
+}
+
+.send-message {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.email-contact {
+  display: flex;
+  margin-top: 30px;
+}
+
+.right-bar a {
+  margin-right: 7px;
+}
+
+.contact-message {
+  margin-top: 100px;
+  width: 560px;
 }
